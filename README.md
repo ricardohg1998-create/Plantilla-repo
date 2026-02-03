@@ -1,0 +1,27 @@
+# AG_PRO_TEMPLATE — Project Bootstrap
+
+This folder is a **project template** for Google Antigravity that forces:
+- Non-generic UI (design thesis + signature patterns + no default kit)
+- Depth (vertical/horizontal/transversal)
+- Evidence (walkthrough + decision log + release checklist)
+- Senior hardening (CI, threat model, visual regression, runbook)
+
+## How to start a new client project
+1) Copy this folder to a new directory (rename it).
+2) Fill `PROJECT_BRIEF.md`.
+3) Open the folder as a workspace in Antigravity.
+4) In chat, run: `/kickoff`
+5) Follow the generated `docs/implementation_plan.md`, then `/scaffold`.
+
+## Recommended workflow sequence (PRODUCTION)
+- /kickoff
+- /scaffold
+- /ci_setup
+- /security_harden
+- /visual_regress
+- /qa_polish
+- /release_proof
+
+## Notes
+- Keep global `~/.gemini/GEMINI.md` short; use `.agent/rules/agent_rules.md` for the heavy rules.
+- Skills can stay global at `~/.gemini/antigravity/skills/`.
