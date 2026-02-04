@@ -13,6 +13,12 @@ This folder is a **project template** for Google Antigravity that forces:
 4) In chat, run: `/kickoff`
 5) Follow the generated `docs/implementation_plan.md`, then `/scaffold`.
 
+## Pasos rápidos recomendados (orden sugerido)
+1) Copia esta plantilla a un nuevo directorio y renómbralo.
+2) Completa [`PROJECT_BRIEF.md`](PROJECT_BRIEF.md).
+3) Ejecuta `/kickoff` para generar y completar los docs clave: [`docs/implementation_plan.md`](docs/implementation_plan.md) y [`docs/design_concept.md`](docs/design_concept.md).
+4) Verifica que ambos documentos estén completos y continúa con `/scaffold`.
+
 ## Recommended workflow sequence (PRODUCTION)
 - /kickoff
 - /scaffold
