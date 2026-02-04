@@ -31,3 +31,4 @@ This folder is a **project template** for Google Antigravity that forces:
 ## Notes
 - Keep global `~/.gemini/GEMINI.md` short; use `.agent/rules/agent_rules.md` for the heavy rules.
 - Skills can stay global at `~/.gemini/antigravity/skills/`.
+- Índice de documentación y orden recomendado: ver `docs/README.md`.
