@@ -1,0 +1,11 @@
+# Ajustar al stack elegido durante /kickoff.
+node_modules/
+.env*
+dist/
+build/
+.next/
+.cache/
+.DS_Store
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
