@@ -1,10 +1,20 @@
 ---
 name: ci-cd-hardener
-description: Add CI pipeline hygiene: caching, parallel checks, and artifact uploads for reports.
+description: Use when the request requires add CI pipeline hygiene: caching, parallel checks, and artifact uploads for reports.
 ---
 
 # CI/CD Hardener
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply ci cd hardener to improve this feature."
+- "Use ci cd hardener and give me the concrete deliverables."
+- "Can you run a full ci cd hardener pass on this repo?"
+- "I need step-by-step execution using ci cd hardener."
 ## Goal
 Senior baseline CI: deterministic checks, caching, and artifacts for proof.
 

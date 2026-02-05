@@ -1,10 +1,20 @@
 ---
 name: integrations-orchestrator
-description: Implement resilient integrations: webhooks, jobs, retries, idempotency, observability.
+description: Use when the request requires implement resilient integrations: webhooks, jobs, retries, idempotency, observability.
 ---
 
 # Integrations Orchestrator
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply integrations orchestrator to improve this feature."
+- "Use integrations orchestrator and give me the concrete deliverables."
+- "Can you run a full integrations orchestrator pass on this repo?"
+- "I need step-by-step execution using integrations orchestrator."
 ## Goal
 Integrations that survive retries/failures/out-of-order events.
 

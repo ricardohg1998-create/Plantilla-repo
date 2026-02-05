@@ -1,10 +1,20 @@
 ---
 name: product-depth-expander
-description: Expand vague requirements into PRODUCTION-depth IA, flows, branch sets, and cross-cutting requirements.
+description: Use when the request requires expand vague requirements into PRODUCTION-depth IA, flows, branch sets, and cross-cutting requirements.
 ---
 
 # Product Depth Expander
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply product depth expander to improve this feature."
+- "Use product depth expander and give me the concrete deliverables."
+- "Can you run a full product depth expander pass on this repo?"
+- "I need step-by-step execution using product depth expander."
 ## Goal
 Convert ambiguity into a senior-grade plan: IA, flows, branching, and transversal requirements.
 

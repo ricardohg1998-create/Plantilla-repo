@@ -1,10 +1,20 @@
 ---
 name: design-qa-polish-pass
-description: Run a senior-level design QA pass to eliminate AI-like artifacts: rhythm, alignment, typography, state polish, interaction feedback, and mobile finesse.
+description: Use when the request requires run a senior-level design QA pass to eliminate AI-like artifacts: rhythm, alignment, typography, state polish, interaction feedback, and mobile finesse.
 ---
 
 # Design QA + Polish Pass
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply design qa polish pass to improve this feature."
+- "Use design qa polish pass and give me the concrete deliverables."
+- "Can you run a full design qa polish pass pass on this repo?"
+- "I need step-by-step execution using design qa polish pass."
 ## Goal
 Remove the remaining “AI smell”: subtle inconsistencies, kit artifacts, unfinished states, and copy roughness.
 

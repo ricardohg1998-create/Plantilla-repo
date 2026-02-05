@@ -1,10 +1,20 @@
 ---
 name: ux-state-completer
-description: Implement complete UX states and recovery paths for critical flows.
+description: Use when the request requires implement complete UX states and recovery paths for critical flows.
 ---
 
 # UX State Completer
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply ux state completer to improve this feature."
+- "Use ux state completer and give me the concrete deliverables."
+- "Can you run a full ux state completer pass on this repo?"
+- "I need step-by-step execution using ux state completer."
 ## Goal
 Eliminate happy-path demos by implementing full state matrices and recovery with domain microcopy.
 

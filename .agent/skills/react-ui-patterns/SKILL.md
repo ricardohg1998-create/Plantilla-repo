@@ -1,10 +1,25 @@
 ---
 name: react-ui-patterns
-description: Modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+description: Use when the request requires modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
 ---
 
 # React UI Patterns
 
+## When to use
+- The request explicitly matches **react ui patterns** outcomes.
+- The user asks for work that aligns with: Use when the request requires modern React UI patterns for loading states, error handling, and data fetching. Use when building UI components, handling async data, or managing UI states.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply react ui patterns to improve this feature."
+- "Use react ui patterns and give me the concrete deliverables."
+- "Can you run a full react ui patterns pass on this repo?"
+- "I need step-by-step execution using react ui patterns."
 ## Core Principles
 
 1. **Never show stale UI** - Loading spinners only when actually loading

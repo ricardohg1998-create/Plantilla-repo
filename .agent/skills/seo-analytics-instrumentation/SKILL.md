@@ -1,10 +1,20 @@
 ---
 name: seo-analytics-instrumentation
-description: Implement SEO foundations and consent-friendly analytics with event taxonomy.
+description: Use when the request requires implement SEO foundations and consent-friendly analytics with event taxonomy.
 ---
 
 # SEO + Analytics Instrumentation
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply seo analytics instrumentation to improve this feature."
+- "Use seo analytics instrumentation and give me the concrete deliverables."
+- "Can you run a full seo analytics instrumentation pass on this repo?"
+- "I need step-by-step execution using seo analytics instrumentation."
 ## Goal
 Measurable outcomes without performance or privacy regression.
 

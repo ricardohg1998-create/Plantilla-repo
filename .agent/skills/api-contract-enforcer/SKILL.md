@@ -1,10 +1,20 @@
 ---
 name: api-contract-enforcer
-description: Define API contracts and enforce via validation/contract tests and client typing.
+description: Use when the request requires define API contracts and enforce via validation/contract tests and client typing.
 ---
 
 # API Contract Enforcer
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply api contract enforcer to improve this feature."
+- "Use api contract enforcer and give me the concrete deliverables."
+- "Can you run a full api contract enforcer pass on this repo?"
+- "I need step-by-step execution using api contract enforcer."
 ## Goal
 Prevent unstable integrations by defining and validating API contracts early.
 

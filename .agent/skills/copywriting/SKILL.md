@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: >
+description: Use when the request requires >.
   Use this skill when writing, rewriting, or improving marketing copy
   for any page (homepage, landing page, pricing, feature, product, or about page).
   This skill produces clear, compelling, and testable copy while enforcing
@@ -9,6 +9,21 @@ description: >
 
 # Copywriting
 
+## When to use
+- The request explicitly matches **copywriting** outcomes.
+- The user asks for work that aligns with: Use when the request requires >.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply copywriting to improve this feature."
+- "Use copywriting and give me the concrete deliverables."
+- "Can you run a full copywriting pass on this repo?"
+- "I need step-by-step execution using copywriting."
 ## Purpose
 
 Produce **clear, credible, and action-oriented marketing copy** that aligns with

@@ -1,10 +1,25 @@
 ---
 name: nextjs-app-router-patterns
-description: Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components.
+description: Use when the request requires master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components.
 ---
 
 # Next.js App Router Patterns
 
+## When to use
+- The request explicitly matches **nextjs app router patterns** outcomes.
+- The user asks for work that aligns with: Use when the request requires master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply nextjs app router patterns to improve this feature."
+- "Use nextjs app router patterns and give me the concrete deliverables."
+- "Can you run a full nextjs app router patterns pass on this repo?"
+- "I need step-by-step execution using nextjs app router patterns."
 Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.
 
 ## Use this skill when

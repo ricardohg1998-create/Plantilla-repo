@@ -1,10 +1,20 @@
 ---
 name: perf-budget-enforcer
-description: Set and enforce performance budgets; implement list strategies; remove expensive effects.
+description: Use when the request requires set and enforce performance budgets; implement list strategies; remove expensive effects.
 ---
 
 # Performance Budget Enforcer
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply perf budget enforcer to improve this feature."
+- "Use perf budget enforcer and give me the concrete deliverables."
+- "Can you run a full perf budget enforcer pass on this repo?"
+- "I need step-by-step execution using perf budget enforcer."
 ## Goal
 Maintain fast UX under realistic loads; avoid heavy effects that scream demo UI.
 

@@ -1,10 +1,25 @@
 ---
 name: wcag-audit-patterns
-description: Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.
+description: Use when the request requires conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.
 ---
 
 # WCAG Audit Patterns
 
+## When to use
+- The request explicitly matches **wcag audit patterns** outcomes.
+- The user asks for work that aligns with: Use when the request requires conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply wcag audit patterns to improve this feature."
+- "Use wcag audit patterns and give me the concrete deliverables."
+- "Can you run a full wcag audit patterns pass on this repo?"
+- "I need step-by-step execution using wcag audit patterns."
 Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.
 
 ## Use this skill when
