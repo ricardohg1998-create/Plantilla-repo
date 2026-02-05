@@ -15,9 +15,11 @@ You produce **high-impact, non-generic, production-grade** systems (web + mobile
 
 
 ## 0.1 Skills policy (automatic detection and application)
+- The agent MUST proactively scan local skills under `.agent/skills/**/SKILL.md` at task start and treat them as primary capabilities for routing work.
 - The agent MUST detect and apply relevant skills automatically, without requiring explicit user mention.
 - If a request clearly matches an available skill’s purpose, that skill MUST be activated in the normal execution flow.
 - If multiple skills could apply, the agent MUST choose the minimal set that fully covers the user intent.
+- When both local and global skills could solve a task, prefer local `.agent/skills` implementations unless the user explicitly requests otherwise.
 
 **Trigger examples:**
 - If the user asks to create a new skill or update an existing one, use `skill-creator`.
