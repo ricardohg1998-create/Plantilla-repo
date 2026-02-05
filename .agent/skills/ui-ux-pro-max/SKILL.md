@@ -349,3 +349,27 @@ Before delivering UI code, verify these items:
 - [ ] Form inputs have labels
 - [ ] Color is not the only indicator
 - [ ] `prefers-reduced-motion` respected
+
+## Companion files
+
+### `references/*`
+- _(none in this skill)_
+
+### `checklists/*`
+- _(none in this skill)_
+
+### `templates/*`
+- _(none in this skill)_
+
+### `scripts/*`
+- `scripts/__pycache__/core.cpython-314.pyc` — Use when… Use when you need deterministic automation or fast lookup via scripts.
+- `scripts/__pycache__/design_system.cpython-314.pyc` — Use when… Use when you need deterministic automation or fast lookup via scripts.
+- `scripts/core.py` — Use when… Use when you need deterministic automation or fast lookup via scripts.
+- `scripts/design_system.py` — Use when… Use when you need deterministic automation or fast lookup via scripts.
+- `scripts/search.py` — Use when… Use when you need deterministic automation or fast lookup via scripts.
+
+### Quick flow
+- Si necesitas contexto o reglas del dominio, abre `references/*`.
+- Si necesitas validar calidad antes de cerrar, abre `checklists/*`.
+- Si necesitas generar un documento/archivo base rápidamente, abre `templates/*`.
+- Si necesitas automatizar o consultar datos estructurados, abre `scripts/*`.

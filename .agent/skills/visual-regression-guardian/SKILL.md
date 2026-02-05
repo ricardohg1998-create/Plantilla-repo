@@ -33,3 +33,22 @@ Prevent visual drift and catch subtle regressions in high-impact UIs.
 ## Notes
 Snapshots are reviewed artifacts, not auto-updated noise.
 
+## Companion files
+
+### `references/*`
+- _(none in this skill)_
+
+### `checklists/*`
+- _(none in this skill)_
+
+### `templates/*`
+- `templates/playwright-visual-example.spec.ts` — Use when… Use when you need a ready-to-copy starter file instead of creating one from scratch.
+
+### `scripts/*`
+- _(none in this skill)_
+
+### Quick flow
+- Si necesitas contexto o reglas del dominio, abre `references/*`.
+- Si necesitas validar calidad antes de cerrar, abre `checklists/*`.
+- Si necesitas generar un documento/archivo base rápidamente, abre `templates/*`.
+- Si necesitas automatizar o consultar datos estructurados, abre `scripts/*`.

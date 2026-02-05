@@ -27,3 +27,22 @@ Remove the remaining “AI smell”: subtle inconsistencies, kit artifacts, unfi
 - `docs/design_qa.md` with punchlist + fixes.
 - Applied polish changes.
 
+## Companion files
+
+### `references/*`
+- _(none in this skill)_
+
+### `checklists/*`
+- `checklists/design-qa-checklist.md` — Use when… Use when you need a step-by-step QA gate before closing the task.
+
+### `templates/*`
+- _(none in this skill)_
+
+### `scripts/*`
+- _(none in this skill)_
+
+### Quick flow
+- Si necesitas contexto o reglas del dominio, abre `references/*`.
+- Si necesitas validar calidad antes de cerrar, abre `checklists/*`.
+- Si necesitas generar un documento/archivo base rápidamente, abre `templates/*`.
+- Si necesitas automatizar o consultar datos estructurados, abre `scripts/*`.

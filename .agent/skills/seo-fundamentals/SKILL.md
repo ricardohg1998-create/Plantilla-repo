@@ -171,3 +171,23 @@ SEO fundamentals should be validated using **multiple signals**, not single metr
 > **Key Principle:**
 > Sustainable SEO is built on _useful content_, _technical clarity_, and _trust over time_.
 > There are no permanent shortcuts.
+
+## Companion files
+
+### `references/*`
+- _(none in this skill)_
+
+### `checklists/*`
+- _(none in this skill)_
+
+### `templates/*`
+- _(none in this skill)_
+
+### `scripts/*`
+- `scripts/seo_checker.py` — Use when… Use when you need deterministic automation or fast lookup via scripts.
+
+### Quick flow
+- Si necesitas contexto o reglas del dominio, abre `references/*`.
+- Si necesitas validar calidad antes de cerrar, abre `checklists/*`.
+- Si necesitas generar un documento/archivo base rápidamente, abre `templates/*`.
+- Si necesitas automatizar o consultar datos estructurados, abre `scripts/*`.

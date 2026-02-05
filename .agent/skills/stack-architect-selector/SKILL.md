@@ -28,3 +28,22 @@ Choose a stack and architecture that supports PRODUCTION-depth delivery and avoi
 - Update `docs/implementation_plan.md`.
 - Create `docs/architecture_decision.md`.
 
+## Companion files
+
+### `references/*`
+- `references/stack-menu.md` — Use when… Use when you need domain-specific rules, schemas, or decision criteria.
+
+### `checklists/*`
+- _(none in this skill)_
+
+### `templates/*`
+- _(none in this skill)_
+
+### `scripts/*`
+- _(none in this skill)_
+
+### Quick flow
+- Si necesitas contexto o reglas del dominio, abre `references/*`.
+- Si necesitas validar calidad antes de cerrar, abre `checklists/*`.
+- Si necesitas generar un documento/archivo base rápidamente, abre `templates/*`.
+- Si necesitas automatizar o consultar datos estructurados, abre `scripts/*`.
