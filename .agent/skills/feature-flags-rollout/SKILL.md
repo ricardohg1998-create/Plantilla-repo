@@ -1,8 +1,10 @@
 ---
 name: feature-flags-rollout
-description: Introduce feature flags and safe rollout patterns (kill-switches, staged enablement) for high-risk features.
+description: "Introduce feature flags and safe rollout patterns (kill-switches, staged enablement) for high-risk features."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["feature", "flags", "rollout"]
 ---
-
 # Feature Flags + Rollout
 
 ## Goal

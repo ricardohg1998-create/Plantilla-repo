@@ -1,8 +1,10 @@
 ---
 name: web-performance-optimization
 description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance"
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["web", "performance", "optimization"]
 ---
-
 # Web Performance Optimization
 
 ## Overview

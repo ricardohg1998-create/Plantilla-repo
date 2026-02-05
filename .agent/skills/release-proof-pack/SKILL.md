@@ -1,8 +1,10 @@
 ---
 name: release-proof-pack
-description: Generate auditable proof: walkthrough + decision log + release checklist confirming gates pass.
+description: "Generate auditable proof: walkthrough + decision log + release checklist confirming gates pass."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["release", "proof", "pack"]
 ---
-
 # Release Proof Pack
 
 ## Goal

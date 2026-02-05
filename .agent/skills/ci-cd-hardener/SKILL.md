@@ -1,8 +1,10 @@
 ---
 name: ci-cd-hardener
-description: Add CI pipeline hygiene: caching, parallel checks, and artifact uploads for reports.
+description: "Add CI pipeline hygiene: caching, parallel checks, and artifact uploads for reports."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["ci", "cd", "hardener"]
 ---
-
 # CI/CD Hardener
 
 ## Goal

@@ -1,8 +1,10 @@
 ---
 name: a11y-perf-audit
-description: Audit and fix accessibility and performance issues: keyboard nav, focus, contrast, reduced motion, list performance, expensive effects.
+description: "Audit and fix accessibility and performance issues: keyboard nav, focus, contrast, reduced motion, list performance, expensive effects."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["a11y", "perf", "audit"]
 ---
-
 # A11y + Performance Audit
 
 ## Goal

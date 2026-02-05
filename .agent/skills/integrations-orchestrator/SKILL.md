@@ -1,8 +1,10 @@
 ---
 name: integrations-orchestrator
-description: Implement resilient integrations: webhooks, jobs, retries, idempotency, observability.
+description: "Implement resilient integrations: webhooks, jobs, retries, idempotency, observability."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["integrations", "orchestrator"]
 ---
-
 # Integrations Orchestrator
 
 ## Goal

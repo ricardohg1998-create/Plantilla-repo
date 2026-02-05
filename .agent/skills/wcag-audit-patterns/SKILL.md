@@ -1,8 +1,10 @@
 ---
 name: wcag-audit-patterns
-description: Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.
+description: "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["wcag", "audit", "patterns"]
 ---
-
 # WCAG Audit Patterns
 
 Comprehensive guide to auditing web content against WCAG 2.2 guidelines with actionable remediation strategies.

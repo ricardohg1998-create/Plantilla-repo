@@ -1,8 +1,10 @@
 ---
 name: sre-runbook-observability
-description: Create a practical runbook and observability baseline: error boundaries, API error conventions, logging schema, triage and rollback steps.
+description: "Create a practical runbook and observability baseline: error boundaries, API error conventions, logging schema, triage and rollback steps."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["sre", "runbook", "observability"]
 ---
-
 # SRE Runbook + Observability
 
 ## Goal

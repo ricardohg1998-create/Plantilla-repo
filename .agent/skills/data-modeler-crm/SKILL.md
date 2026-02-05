@@ -1,8 +1,10 @@
 ---
 name: data-modeler-crm
-description: Design CRM/SaaS data model with constraints, indexes, migrations, and seed strategy.
+description: "Design CRM/SaaS data model with constraints, indexes, migrations, and seed strategy."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["data", "modeler", "crm"]
 ---
-
 # Data Modeler — CRM/SaaS
 
 ## Goal

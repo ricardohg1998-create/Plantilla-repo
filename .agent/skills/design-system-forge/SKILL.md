@@ -1,8 +1,10 @@
 ---
 name: design-system-forge
-description: Create or refactor a governed design system: tokens + base UI + non-recognizable kit overrides.
+description: "Create or refactor a governed design system: tokens + base UI + non-recognizable kit overrides."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["design", "system", "forge"]
 ---
-
 # Design System Forge
 
 ## Goal

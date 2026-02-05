@@ -1,8 +1,10 @@
 ---
 name: product-depth-expander
-description: Expand vague requirements into PRODUCTION-depth IA, flows, branch sets, and cross-cutting requirements.
+description: "Expand vague requirements into PRODUCTION-depth IA, flows, branch sets, and cross-cutting requirements."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["product", "depth", "expander"]
 ---
-
 # Product Depth Expander
 
 ## Goal

@@ -1,8 +1,10 @@
 ---
 name: signature-patterns-lab
-description: Create 2–3 repeatable signature patterns that increase authorship and remove kit fingerprints.
+description: "Create 2–3 repeatable signature patterns that increase authorship and remove kit fingerprints."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["signature", "patterns", "lab"]
 ---
-
 # Signature Patterns Lab
 
 ## Goal

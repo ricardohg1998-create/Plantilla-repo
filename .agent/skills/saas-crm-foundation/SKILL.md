@@ -1,8 +1,10 @@
 ---
 name: saas-crm-foundation
-description: Implement SaaS/CRM primitives: tenancy, RBAC, audit, idempotency, integrations readiness.
+description: "Implement SaaS/CRM primitives: tenancy, RBAC, audit, idempotency, integrations readiness."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["saas", "crm", "foundation"]
 ---
-
 # SaaS/CRM Foundation
 
 ## Goal

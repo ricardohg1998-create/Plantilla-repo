@@ -1,8 +1,10 @@
 ---
 name: threat-model-owasp-hardening
-description: Create a lightweight threat model + security checklist; implement mitigations and tests for auth/authZ/data boundaries.
+description: "Create a lightweight threat model + security checklist; implement mitigations and tests for auth/authZ/data boundaries."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["threat", "model", "owasp", "hardening"]
 ---
-
 # Threat Model + Security Hardening
 
 ## Goal

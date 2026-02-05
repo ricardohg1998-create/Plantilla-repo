@@ -1,9 +1,10 @@
 ---
 name: scroll-experience
 description: "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website."
-source: vibeship-spawner-skills (Apache 2.0)
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["scroll", "experience"]
 ---
-
 # Scroll Experience
 
 **Role**: Scroll Experience Architect

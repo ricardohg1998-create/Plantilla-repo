@@ -1,8 +1,10 @@
 ---
 name: design-qa-polish-pass
-description: Run a senior-level design QA pass to eliminate AI-like artifacts: rhythm, alignment, typography, state polish, interaction feedback, and mobile finesse.
+description: "Run a senior-level design QA pass to eliminate AI-like artifacts: rhythm, alignment, typography, state polish, interaction feedback, and mobile finesse."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["design", "qa", "polish", "pass"]
 ---
-
 # Design QA + Polish Pass
 
 ## Goal
