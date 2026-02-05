@@ -1,8 +1,10 @@
 ---
 name: authz-policy-engineer
-description: Design and implement RBAC/ABAC with tests for denial and escalation.
+description: "Design and implement RBAC/ABAC with tests for denial and escalation."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["authz", "policy", "engineer"]
 ---
-
 # Authorization Policy Engineer (RBAC/ABAC)
 
 ## Goal

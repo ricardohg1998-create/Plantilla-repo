@@ -1,8 +1,10 @@
 ---
 name: stack-architect-selector
-description: Select the best-fit stack and architecture for a client project (marketing/product/SaaS-CRM), with explicit tradeoffs for depth and differentiation.
+description: "Select the best-fit stack and architecture for a client project (marketing/product/SaaS-CRM), with explicit tradeoffs for depth and differentiation."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["stack", "architect", "selector"]
 ---
-
 # Stack + Architecture Selector
 
 ## Goal

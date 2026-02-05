@@ -1,8 +1,10 @@
 ---
 name: ux-state-completer
-description: Implement complete UX states and recovery paths for critical flows.
+description: "Implement complete UX states and recovery paths for critical flows."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["ux", "state", "completer"]
 ---
-
 # UX State Completer
 
 ## Goal

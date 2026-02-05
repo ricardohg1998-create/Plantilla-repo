@@ -1,8 +1,10 @@
 ---
 name: repo-scaffold-pro
-description: Create a senior-team-grade repository scaffold aligned to the chosen stack, including docs, checks, design system bootstrap, and a first vertical slice.
+description: "Create a senior-team-grade repository scaffold aligned to the chosen stack, including docs, checks, design system bootstrap, and a first vertical slice."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["repo", "scaffold", "pro"]
 ---
-
 # Repo Scaffold Pro
 
 ## Goal

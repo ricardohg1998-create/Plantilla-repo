@@ -41,3 +41,7 @@ This folder is a **project template** for Google Antigravity that forces:
 ### Ejemplos de disparadores
 - Si el usuario pide crear una skill nueva o actualizar una existente, usar `skill-creator`.
 - Si el usuario pide listar, instalar o actualizar skills, usar `skill-installer`.
+
+## Skills metadata
+- Esquema oficial de metadatos: `.agent/skills/_schema.md`.
+- Lint estático: `python scripts/lint_skills_metadata.py`.

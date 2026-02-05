@@ -1,8 +1,10 @@
 ---
 name: visual-regression-guardian
-description: Set up Playwright visual regression testing: baselines, multi-viewport, state coverage, CI integration.
+description: "Set up Playwright visual regression testing: baselines, multi-viewport, state coverage, CI integration."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["visual", "regression", "guardian"]
 ---
-
 # Visual Regression Guardian (Playwright)
 
 ## Goal

@@ -1,8 +1,10 @@
 ---
 name: copy-seed-forge
-description: Replace generic copy and dead UIs with domain microcopy and realistic seeded datasets.
+description: "Replace generic copy and dead UIs with domain microcopy and realistic seeded datasets."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["copy", "seed", "forge"]
 ---
-
 # Copy + Seed Forge
 
 ## Goal

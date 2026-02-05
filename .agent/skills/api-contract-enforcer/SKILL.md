@@ -1,8 +1,10 @@
 ---
 name: api-contract-enforcer
-description: Define API contracts and enforce via validation/contract tests and client typing.
+description: "Define API contracts and enforce via validation/contract tests and client typing."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["api", "contract", "enforcer"]
 ---
-
 # API Contract Enforcer
 
 ## Goal

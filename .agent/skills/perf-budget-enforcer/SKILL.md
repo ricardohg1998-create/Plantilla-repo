@@ -1,8 +1,10 @@
 ---
 name: perf-budget-enforcer
-description: Set and enforce performance budgets; implement list strategies; remove expensive effects.
+description: "Set and enforce performance budgets; implement list strategies; remove expensive effects."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["perf", "budget", "enforcer"]
 ---
-
 # Performance Budget Enforcer
 
 ## Goal

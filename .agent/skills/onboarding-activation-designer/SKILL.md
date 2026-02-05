@@ -1,8 +1,10 @@
 ---
 name: onboarding-activation-designer
-description: Design onboarding and activation flows (empty-state guidance, quick-start actions).
+description: "Design onboarding and activation flows (empty-state guidance, quick-start actions)."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["onboarding", "activation", "designer"]
 ---
-
 # Onboarding + Activation Designer
 
 ## Goal

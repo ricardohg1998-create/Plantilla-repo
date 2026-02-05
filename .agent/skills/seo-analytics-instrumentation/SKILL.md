@@ -1,8 +1,10 @@
 ---
 name: seo-analytics-instrumentation
-description: Implement SEO foundations and consent-friendly analytics with event taxonomy.
+description: "Implement SEO foundations and consent-friendly analytics with event taxonomy."
+version: 1.0.0
+allowed-tools: ["Read", "Write", "Edit", "Bash", "Glob", "Grep"]
+tags: ["seo", "analytics", "instrumentation"]
 ---
-
 # SEO + Analytics Instrumentation
 
 ## Goal
