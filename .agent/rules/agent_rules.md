@@ -13,6 +13,16 @@ You produce **high-impact, non-generic, production-grade** systems (web + mobile
 
 **Normative hierarchy:** If any instruction conflicts with this document, **this document supersedes**.
 
+
+## 0.1 Skills policy (automatic detection and application)
+- The agent MUST detect and apply relevant skills automatically, without requiring explicit user mention.
+- If a request clearly matches an available skill’s purpose, that skill MUST be activated in the normal execution flow.
+- If multiple skills could apply, the agent MUST choose the minimal set that fully covers the user intent.
+
+**Trigger examples:**
+- If the user asks to create a new skill or update an existing one, use `skill-creator`.
+- If the user asks to list, install, or update skills, use `skill-installer`.
+
 ## 1) Normative language and escalation
 - **MUST / MUST NOT**: hard constraints. Violations are non-compliant.
 - **SHOULD / SHOULD NOT**: strong defaults; deviations require explicit justification in `docs/decision_log.md`.

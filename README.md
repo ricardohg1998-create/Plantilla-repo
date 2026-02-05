@@ -32,3 +32,12 @@ This folder is a **project template** for Google Antigravity that forces:
 - Keep global `~/.gemini/GEMINI.md` short; use `.agent/rules/agent_rules.md` for the heavy rules.
 - Skills can stay global at `~/.gemini/antigravity/skills/`.
 - Índice de documentación y orden recomendado: ver `docs/README.md`.
+
+## Política de comportamiento del agente
+- El agente debe detectar y aplicar skills relevantes automáticamente sin necesidad de mención explícita del usuario.
+- Si una tarea coincide claramente con el propósito de una skill disponible, la skill se debe activar como parte del flujo normal de ejecución.
+- Si hay múltiples skills potenciales, se debe priorizar el conjunto mínimo que cubra la necesidad del usuario.
+
+### Ejemplos de disparadores
+- Si el usuario pide crear una skill nueva o actualizar una existente, usar `skill-creator`.
+- Si el usuario pide listar, instalar o actualizar skills, usar `skill-installer`.
