@@ -1,10 +1,20 @@
 ---
 name: stack-architect-selector
-description: Select the best-fit stack and architecture for a client project (marketing/product/SaaS-CRM), with explicit tradeoffs for depth and differentiation.
+description: Use when the request requires select the best-fit stack and architecture for a client project (marketing/product/SaaS-CRM), with explicit tradeoffs for depth and differentiation.
 ---
 
 # Stack + Architecture Selector
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply stack architect selector to improve this feature."
+- "Use stack architect selector and give me the concrete deliverables."
+- "Can you run a full stack architect selector pass on this repo?"
+- "I need step-by-step execution using stack architect selector."
 ## Goal
 Choose a stack and architecture that supports PRODUCTION-depth delivery and avoids default-kit, AI-generic outcomes.
 

@@ -1,11 +1,26 @@
 ---
 name: nextjs-best-practices
-description: Next.js App Router principles. Server Components, data fetching, routing patterns.
+description: Use when the request requires next.js App Router principles. Server Components, data fetching, routing patterns.
 allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 
 # Next.js Best Practices
 
+## When to use
+- The request explicitly matches **nextjs best practices** outcomes.
+- The user asks for work that aligns with: Use when the request requires next.js App Router principles. Server Components, data fetching, routing patterns.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply nextjs best practices to improve this feature."
+- "Use nextjs best practices and give me the concrete deliverables."
+- "Can you run a full nextjs best practices pass on this repo?"
+- "I need step-by-step execution using nextjs best practices."
 > Principles for Next.js App Router development.
 
 ---

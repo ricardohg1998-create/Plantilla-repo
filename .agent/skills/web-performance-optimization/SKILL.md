@@ -1,10 +1,25 @@
 ---
 name: web-performance-optimization
-description: "Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance"
+description: "Use when the request requires optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance."
 ---
 
 # Web Performance Optimization
 
+## When to use
+- The request explicitly matches **web performance optimization** outcomes.
+- The user asks for work that aligns with: Use when the request requires optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply web performance optimization to improve this feature."
+- "Use web performance optimization and give me the concrete deliverables."
+- "Can you run a full web performance optimization pass on this repo?"
+- "I need step-by-step execution using web performance optimization."
 ## Overview
 
 Help developers optimize website and web application performance to improve user experience, SEO rankings, and conversion rates. This skill provides systematic approaches to measure, analyze, and improve loading speed, runtime performance, and Core Web Vitals metrics.

@@ -1,10 +1,20 @@
 ---
 name: design-system-forge
-description: Create or refactor a governed design system: tokens + base UI + non-recognizable kit overrides.
+description: Use when the request requires create or refactor a governed design system: tokens + base UI + non-recognizable kit overrides.
 ---
 
 # Design System Forge
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply design system forge to improve this feature."
+- "Use design system forge and give me the concrete deliverables."
+- "Can you run a full design system forge pass on this repo?"
+- "I need step-by-step execution using design system forge."
 ## Goal
 Establish a governed design system and thesis so the UI is authorial, consistent, and scalable.
 

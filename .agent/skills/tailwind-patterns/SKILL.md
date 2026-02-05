@@ -1,11 +1,26 @@
 ---
 name: tailwind-patterns
-description: Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
+description: Use when the request requires tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
 allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 
 # Tailwind CSS Patterns (v4 - 2025)
 
+## When to use
+- The request explicitly matches **tailwind patterns** outcomes.
+- The user asks for work that aligns with: Use when the request requires tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply tailwind patterns to improve this feature."
+- "Use tailwind patterns and give me the concrete deliverables."
+- "Can you run a full tailwind patterns pass on this repo?"
+- "I need step-by-step execution using tailwind patterns."
 > Modern utility-first CSS with CSS-native configuration.
 
 ---

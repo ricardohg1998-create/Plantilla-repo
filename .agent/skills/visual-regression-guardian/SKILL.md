@@ -1,10 +1,20 @@
 ---
 name: visual-regression-guardian
-description: Set up Playwright visual regression testing: baselines, multi-viewport, state coverage, CI integration.
+description: Use when the request requires set up Playwright visual regression testing: baselines, multi-viewport, state coverage, CI integration.
 ---
 
 # Visual Regression Guardian (Playwright)
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply visual regression guardian to improve this feature."
+- "Use visual regression guardian and give me the concrete deliverables."
+- "Can you run a full visual regression guardian pass on this repo?"
+- "I need step-by-step execution using visual regression guardian."
 ## Goal
 Prevent visual drift and catch subtle regressions in high-impact UIs.
 

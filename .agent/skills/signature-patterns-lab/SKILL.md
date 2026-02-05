@@ -1,10 +1,20 @@
 ---
 name: signature-patterns-lab
-description: Create 2–3 repeatable signature patterns that increase authorship and remove kit fingerprints.
+description: Use when the request requires create 2–3 repeatable signature patterns that increase authorship and remove kit fingerprints.
 ---
 
 # Signature Patterns Lab
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply signature patterns lab to improve this feature."
+- "Use signature patterns lab and give me the concrete deliverables."
+- "Can you run a full signature patterns lab pass on this repo?"
+- "I need step-by-step execution using signature patterns lab."
 ## Goal
 Implement repeatable signature patterns (navigation/surface/data) that create a unique identity without harming usability/perf.
 

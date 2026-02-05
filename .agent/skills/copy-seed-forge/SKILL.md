@@ -1,10 +1,20 @@
 ---
 name: copy-seed-forge
-description: Replace generic copy and dead UIs with domain microcopy and realistic seeded datasets.
+description: Use when the request requires replace generic copy and dead UIs with domain microcopy and realistic seeded datasets.
 ---
 
 # Copy + Seed Forge
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply copy seed forge to improve this feature."
+- "Use copy seed forge and give me the concrete deliverables."
+- "Can you run a full copy seed forge pass on this repo?"
+- "I need step-by-step execution using copy seed forge."
 ## Goal
 Eliminate AI-ish copy and enforce domain realism with seeded data.
 

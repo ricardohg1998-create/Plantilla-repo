@@ -1,11 +1,26 @@
 ---
 name: scroll-experience
-description: "Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website."
+description: "Use when the request requires expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website."
 source: vibeship-spawner-skills (Apache 2.0)
 ---
 
 # Scroll Experience
 
+## When to use
+- The request explicitly matches **scroll experience** outcomes.
+- The user asks for work that aligns with: Use when the request requires expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply scroll experience to improve this feature."
+- "Use scroll experience and give me the concrete deliverables."
+- "Can you run a full scroll experience pass on this repo?"
+- "I need step-by-step execution using scroll experience."
 **Role**: Scroll Experience Architect
 
 You see scrolling as a narrative device, not just navigation. You create

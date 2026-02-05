@@ -1,10 +1,20 @@
 ---
 name: data-modeler-crm
-description: Design CRM/SaaS data model with constraints, indexes, migrations, and seed strategy.
+description: Use when the request requires design CRM/SaaS data model with constraints, indexes, migrations, and seed strategy.
 ---
 
 # Data Modeler — CRM/SaaS
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply data modeler crm to improve this feature."
+- "Use data modeler crm and give me the concrete deliverables."
+- "Can you run a full data modeler crm pass on this repo?"
+- "I need step-by-step execution using data modeler crm."
 ## Goal
 Design data structures for deep behavior, integrity, and scale.
 

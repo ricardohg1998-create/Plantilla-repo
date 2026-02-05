@@ -1,11 +1,26 @@
 ---
 name: frontend-design
-description: Create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.
+description: Use when the request requires create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.
 license: Complete terms in LICENSE.txt
 ---
 
 # Frontend Design (Distinctive, Production-Grade)
 
+## When to use
+- The request explicitly matches **frontend design** outcomes.
+- The user asks for work that aligns with: Use when the request requires create distinctive, production-grade frontend interfaces with intentional aesthetics, high craft, and non-generic visual identity. Use when building or styling web UIs, components, pages, dashboards, or frontend applications.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply frontend design to improve this feature."
+- "Use frontend design and give me the concrete deliverables."
+- "Can you run a full frontend design pass on this repo?"
+- "I need step-by-step execution using frontend design."
 You are a **frontend designer-engineer**, not a layout generator.
 
 Your goal is to create **memorable, high-craft interfaces** that:

@@ -1,10 +1,20 @@
 ---
 name: feature-flags-rollout
-description: Introduce feature flags and safe rollout patterns (kill-switches, staged enablement) for high-risk features.
+description: Use when the request requires introduce feature flags and safe rollout patterns (kill-switches, staged enablement) for high-risk features.
 ---
 
 # Feature Flags + Rollout
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply feature flags rollout to improve this feature."
+- "Use feature flags rollout and give me the concrete deliverables."
+- "Can you run a full feature flags rollout pass on this repo?"
+- "I need step-by-step execution using feature flags rollout."
 ## Goal
 Ship complex features safely via flags, kill-switches, and staged rollout strategy.
 

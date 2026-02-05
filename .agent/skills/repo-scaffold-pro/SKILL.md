@@ -1,10 +1,20 @@
 ---
 name: repo-scaffold-pro
-description: Create a senior-team-grade repository scaffold aligned to the chosen stack, including docs, checks, design system bootstrap, and a first vertical slice.
+description: Use when the request requires create a senior-team-grade repository scaffold aligned to the chosen stack, including docs, checks, design system bootstrap, and a first vertical slice.
 ---
 
 # Repo Scaffold Pro
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply repo scaffold pro to improve this feature."
+- "Use repo scaffold pro and give me the concrete deliverables."
+- "Can you run a full repo scaffold pro pass on this repo?"
+- "I need step-by-step execution using repo scaffold pro."
 ## Goal
 Create a runnable scaffold that forces depth (not UI-only demos).
 

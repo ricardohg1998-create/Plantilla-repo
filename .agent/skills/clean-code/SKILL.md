@@ -1,6 +1,6 @@
 ---
 name: clean-code
-description: Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments
+description: Use when the request requires pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments.
 allowed-tools: Read, Write, Edit
 version: 2.0
 priority: CRITICAL
@@ -8,6 +8,21 @@ priority: CRITICAL
 
 # Clean Code - Pragmatic AI Coding Standards
 
+## When to use
+- The request explicitly matches **clean code** outcomes.
+- The user asks for work that aligns with: Use when the request requires pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments.
+- The task needs a repeatable workflow or artifacts defined by this skill.
+
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply clean code to improve this feature."
+- "Use clean code and give me the concrete deliverables."
+- "Can you run a full clean code pass on this repo?"
+- "I need step-by-step execution using clean code."
 > **CRITICAL SKILL** - Be **concise, direct, and solution-focused**.
 
 ---

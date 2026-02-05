@@ -1,10 +1,20 @@
 ---
 name: sre-runbook-observability
-description: Create a practical runbook and observability baseline: error boundaries, API error conventions, logging schema, triage and rollback steps.
+description: Use when the request requires create a practical runbook and observability baseline: error boundaries, API error conventions, logging schema, triage and rollback steps.
 ---
 
 # SRE Runbook + Observability
 
+## Do not use when
+- The request is unrelated to this domain or requires a different specialized skill.
+- The user asks only for high-level discussion without applying this workflow.
+- Another skill has a tighter, more specific trigger for the same request.
+
+## Example user requests
+- "Apply sre runbook observability to improve this feature."
+- "Use sre runbook observability and give me the concrete deliverables."
+- "Can you run a full sre runbook observability pass on this repo?"
+- "I need step-by-step execution using sre runbook observability."
 ## Goal
 Make the system operable: predictable diagnostics, safe rollbacks, and clear runtime failure behavior.
 
