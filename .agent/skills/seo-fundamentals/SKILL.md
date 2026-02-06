@@ -1,9 +1,6 @@
 ---
 name: seo-fundamentals
-description: Use when the request requires >.
-  Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations,
-  content quality, and how modern search engines evaluate pages. This skill explains
-  *why* SEO works, not how to execute specific optimizations.
+description: Use when the request requires foundational SEO principles (E-E-A-T, Core Web Vitals, technical foundations, and content quality) and an explanation of how search engines evaluate pages.
 allowed-tools: Read, Glob, Grep
 ---
 
@@ -13,7 +10,7 @@ allowed-tools: Read, Glob, Grep
 
 ## When to use
 - The request explicitly matches **seo fundamentals** outcomes.
-- The user asks for work that aligns with: Use when the request requires >.
+- The user asks for work that aligns with: Use when the request requires foundational SEO principles (E-E-A-T, Core Web Vitals, technical foundations, and content quality) and an explanation of how search engines evaluate pages.
 - The task needs a repeatable workflow or artifacts defined by this skill.
 
 ## Do not use when
