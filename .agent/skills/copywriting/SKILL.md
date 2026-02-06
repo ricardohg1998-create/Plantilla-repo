@@ -1,17 +1,13 @@
 ---
 name: copywriting
-description: Use when the request requires >.
-  Use this skill when writing, rewriting, or improving marketing copy
-  for any page (homepage, landing page, pricing, feature, product, or about page).
-  This skill produces clear, compelling, and testable copy while enforcing
-  alignment, honesty, and conversion best practices.
+description: Use when the request requires writing, rewriting, or improving marketing copy for pages (homepage, landing page, pricing, feature, product, or about) with clear, credible, testable messaging aligned to conversion best practices.
 ---
 
 # Copywriting
 
 ## When to use
 - The request explicitly matches **copywriting** outcomes.
-- The user asks for work that aligns with: Use when the request requires >.
+- The user asks for work that aligns with: Use when the request requires writing, rewriting, or improving marketing copy for pages (homepage, landing page, pricing, feature, product, or about) with clear, credible, testable messaging aligned to conversion best practices.
 - The task needs a repeatable workflow or artifacts defined by this skill.
 
 ## Do not use when

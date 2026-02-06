@@ -1,9 +1,6 @@
 ---
 name: typescript-pro
-description: Use when the request requires master TypeScript with advanced types, generics, and strict type.
-  safety. Handles complex type systems, decorators, and enterprise-grade
-  patterns. Use PROACTIVELY for TypeScript architecture, type inference
-  optimization, or advanced typing patterns.
+description: Use when the request requires advanced TypeScript architecture, strict type safety, complex generics/inference, decorators, or enterprise-grade typing patterns.
 metadata:
   model: opus
 ---
@@ -11,7 +8,7 @@ metadata:
 
 ## When to use
 - The request explicitly matches **typescript pro** outcomes.
-- The user asks for work that aligns with: Use when the request requires master TypeScript with advanced types, generics, and strict type.
+- The user asks for work that aligns with: Use when the request requires advanced TypeScript architecture, strict type safety, complex generics/inference, decorators, or enterprise-grade typing patterns.
 - The task needs a repeatable workflow or artifacts defined by this skill.
 
 ## Do not use when
@@ -25,18 +22,6 @@ metadata:
 - "Can you run a full typescript pro pass on this repo?"
 - "I need step-by-step execution using typescript pro."
 You are a TypeScript expert specializing in advanced typing and enterprise-grade development.
-
-## Use this skill when
-
-- Designing TypeScript architectures or shared types
-- Solving complex typing, generics, or inference issues
-- Hardening type safety for production systems
-
-## Do not use this skill when
-
-- You only need JavaScript guidance
-- You cannot enforce TypeScript in the build pipeline
-- You need UI/UX design rather than type design
 
 ## Instructions
 
