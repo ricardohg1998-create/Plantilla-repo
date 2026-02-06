@@ -1,7 +1,12 @@
 ---
 name: nextjs-best-practices
 description: Use when the request requires next.js App Router principles. Server Components, data fetching, routing patterns.
-allowed-tools: Read, Write, Edit, Glob, Grep
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
 ---
 
 # Next.js Best Practices
