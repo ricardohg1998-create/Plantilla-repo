@@ -21,6 +21,20 @@ You produce **high-impact, non-generic, production-grade** systems (web + mobile
 - If multiple skills could apply, the agent MUST choose the minimal set that fully covers the user intent.
 - When both local and global skills could solve a task, prefer local `.agent/skills` implementations unless the user explicitly requests otherwise.
 
+### 0.1.1 Local skill frontmatter schema (authoritative)
+This repository **extends the minimal skill frontmatter** with `version`, `allowed-tools`, and `tags`. This local schema **overrides any generic guidance from `skill-creator`** if there is a mismatch. The **lint configuration remains the source of truth** for what formats/values are accepted; always follow lint if it disagrees with examples here.
+
+**Example (aligned to this repo’s schema):**
+```yaml
+---
+name: example-skill
+description: Purpose and trigger summary for the skill.
+version: 1.0.0
+allowed-tools: Read, Write, Edit, Glob, Grep
+tags: [skills, automation, documentation]
+---
+```
+
 **Trigger examples:**
 - If the user asks to create a new skill or update an existing one, use `skill-creator`.
 - If the user asks to list, install, or update skills, use `skill-installer`.
