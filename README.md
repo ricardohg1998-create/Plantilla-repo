@@ -9,15 +9,17 @@ This folder is a **project template** for Google Antigravity that forces:
 ## How to start a new client project
 1) Copy this folder to a new directory (rename it).
 2) Fill `PROJECT_BRIEF.md`.
-3) Open the folder as a workspace in Antigravity.
-4) In chat, run: `/kickoff`
-5) Follow the generated `docs/implementation_plan.md`, then `/scaffold`.
+3) Complete `docs/antigravity_research.md` and `docs/repo_readiness_review.md`.
+4) Open the folder as a workspace in Antigravity.
+5) In chat, run: `/kickoff`
+6) Follow the generated `docs/implementation_plan.md`, then `/scaffold`.
 
 ## Pasos rápidos recomendados (orden sugerido)
 1) Copia esta plantilla a un nuevo directorio y renómbralo.
 2) Completa [`PROJECT_BRIEF.md`](PROJECT_BRIEF.md).
-3) Ejecuta `/kickoff` para generar y completar los docs clave: [`docs/implementation_plan.md`](docs/implementation_plan.md) y [`docs/design_concept.md`](docs/design_concept.md).
-4) Verifica que ambos documentos estén completos y continúa con `/scaffold`.
+3) Completa [`docs/antigravity_research.md`](docs/antigravity_research.md) y [`docs/repo_readiness_review.md`](docs/repo_readiness_review.md).
+4) Ejecuta `/kickoff` para generar y completar los docs clave: [`docs/implementation_plan.md`](docs/implementation_plan.md) y [`docs/design_concept.md`](docs/design_concept.md).
+5) Verifica que ambos documentos estén completos y continúa con `/scaffold`.
 
 ## Recommended workflow sequence (PRODUCTION)
 - /kickoff

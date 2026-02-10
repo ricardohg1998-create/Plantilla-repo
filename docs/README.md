@@ -4,23 +4,27 @@ Esta carpeta contiene los documentos de trabajo del proyecto. Usa el siguiente �
 
 ## Orden recomendado de llenado
 1. `../PROJECT_BRIEF.md`
-2. `design_concept.md`
-3. `implementation_plan.md`
-4. `architecture_decision.md`
-5. `decision_log.md`
-6. `ci.md`
-7. `security_checklist.md`
-8. `threat_model.md`
-9. `ui_audit.md`
-10. `visual_regression.md`
-11. `design_qa.md`
-12. `walkthrough.md`
-13. `release_checklist.md`
+2. `antigravity_research.md`
+3. `repo_readiness_review.md`
+4. `design_concept.md`
+5. `implementation_plan.md`
+6. `architecture_decision.md`
+7. `decision_log.md`
+8. `ci.md`
+9. `security_checklist.md`
+10. `threat_model.md`
+11. `ui_audit.md`
+12. `visual_regression.md`
+13. `design_qa.md`
+14. `walkthrough.md`
+15. `release_checklist.md`
 
 ## Archivos y propósito
 | Archivo | Propósito |
 | --- | --- |
 | `../PROJECT_BRIEF.md` | Brief del proyecto: contexto, objetivos, alcance y restricciones. |
+| `antigravity_research.md` | Investigación contextual (marca/proyecto) y aprendizajes aplicables. |
+| `repo_readiness_review.md` | Validación de adecuación del template al proyecto. |
 | `design_concept.md` | Tesis de diseño, patrones clave y dirección visual. |
 | `implementation_plan.md` | Plan de ejecución: tareas, hitos y dependencias. |
 | `architecture_decision.md` | Decisiones de arquitectura y trade-offs clave. |
