@@ -1,99 +1,92 @@
-# Implementation Plan
+# Plan de Implementación
 
-## 1) Objective
+## 1) Objetivo de la web
 
-State the high‑level, measurable goal of the project. For example: “Increase lead conversions by 20% within six months” or “Showcase portfolio case studies with interactive storytelling to establish authority.” A clear objective anchors all subsequent decisions.
+Estado del objetivo principal, medible si es posible.
+(Ej: "Conseguir al menos 10 contactos mensuales a través del formulario de presupuesto.")
 
-## 2) Project class
+---
 
-Select the project type (mark only one):
+## 2) Tipo de proyecto y alcance
 
-- [ ] **Marketing site** – conversion‑focused, public pages.
-- [ ] **Product app (authenticated)** – user accounts and protected views.
-- [ ] **SaaS/CRM (multi‑tenant and/or role‑based)** – complex flows with role‑based permissions.
+- **Tipo:** (Web corporativa / Landing page / Portfolio / Tienda / Blog / Personal)
+- **Profundidad:** (Estándar / Premium / Experimental)
+- **Páginas:** (Listar todas las páginas/rutas del sitio)
 
-## 3) Depth profile
+---
 
-Choose the depth baseline:
+## 3) Estructura de páginas
 
-- [ ] **MVP** – minimal viable completeness.
-- [ ] **PRODUCTION** (default) – senior‑team baseline; satisfies differentiation and depth gates.
-- [ ] **ENTERPRISE** – includes additional compliance/audit obligations.
+Para cada página, listar las secciones en orden y su propósito:
 
-## 4) Research & inspiration
+### Home
+1. Hero — Gancho visual + CTA principal
+2. ...
 
-Summarise what you learned from researching the client’s domain and reviewing competitor or reference sites. Identify:
+### [Página 2]
+1. ...
 
-- **Effective elements** – design patterns, storytelling techniques, interactions or content structures that resonate.
-- **Generic pitfalls** – clichés and overused layouts you will avoid.
-- **User personas** – who the primary audiences are and their goals.
-- **Visual and experiential references** – mood boards, colour palettes, typography and motion references that inspire the direction.
+### [Página 3]
+1. ...
 
-## 5) Assumptions (≤5)
+---
 
-List key assumptions that underpin the plan. Each assumption should include a rationale and risk classification (e.g., low/medium/high). Keep the list concise and explicit.
+## 4) Concepto visual (resumen)
 
-## 6) Unique features & interactions
+Resumen breve de las decisiones del `design_concept.md`:
+- **Paleta:**
+- **Tipografía:**
+- **Patrones de firma:**
+- **Tono:**
 
-Detail the signature patterns and dynamic elements that will set this project apart. For each item describe the intent, required interactions and any accessibility/performance considerations:
+---
 
-- **Signature pattern #1:**
-- **Signature pattern #2:**
-- **Additional dynamic components:** (e.g., blog, FAQ with search/filtering, contact form with validation, product gallery with filters or sorting).
-- **Accessibility & performance notes:** For each feature, specify how you will ensure keyboard operability, motion safety and budget for animations.
+## 5) Funcionalidades especiales
 
-## 7) Content & narrative structure
+Listar cualquier funcionalidad que vaya más allá de páginas estáticas:
+- [ ] Formulario de contacto avanzado
+- [ ] Galería interactiva
+- [ ] Animaciones de scroll
+- [ ] Blog
+- [ ] Multiidioma
+- [ ] Integración con servicios externos (WhatsApp, Maps, etc.)
+- [ ] Otro: ___
 
-Define how the site will tell a story and deliver value beyond a single landing screen:
+Para cada funcionalidad, describir brevemente qué se espera.
 
-- **Pages/routes:** List all pages or views and describe their purpose.
-- **Section hierarchy:** Outline the sequence of sections within each page and how they connect logically (e.g., problem → solution → proof → call‑to‑action).
-- **Call‑to‑actions:** Define the primary and secondary CTAs for each route and the expected user flow.
-- **Copy & data plan:** Describe the tone of voice, vocabulary and plan to source real copy and semi‑realistic data.
+---
 
-## 8) In‑scope / Out‑of‑scope
+## 6) Contenido y copy
 
-**In‑scope:**
+- **Textos del cliente:** ¿Proporcionados o generados?
+- **Imágenes:** ¿Reales, generadas o mix?
+- **Testimonios:** ¿Reales o simulados con contexto realista?
+- **Datos/cifras:** ¿Verificados o estimados?
 
-- 
+---
 
-**Out‑of‑scope:**
+## 7) Checklist de entrega
 
-- 
+- [ ] Todas las páginas implementadas
+- [ ] Navegación funcional (desktop + móvil)
+- [ ] Formularios validados y funcionales
+- [ ] Contenido real (sin placeholders)
+- [ ] Patrones de firma presentes
+- [ ] Responsive correcto (mobile-first)
+- [ ] Imágenes optimizadas
+- [ ] SEO básico (títulos, metas, headings)
+- [ ] Animaciones y micro-interacciones funcionando
+- [ ] Modo oscuro (si aplica)
 
-Clarify the boundaries of the project. Any expected features or flows that will not be delivered should be explicitly stated here.
+---
 
-## 9) Architecture (high level)
+## 8) Definición de "terminado"
 
-Provide a high‑level overview of the system architecture:
+El proyecto se considera entregable cuando:
 
-- **Boundaries:** What are the main modules or contexts? How will the frontend, backend and any external services communicate?
-- **Data ownership:** Identify where data lives and who owns which data (client, third‑party services, etc.).
-- **Interfaces:** Outline APIs, events or integration points.
-
-## 10) Navigation map
-
-List routes or views and describe the primary flows between them. Include how users will traverse the site on mobile and desktop, noting any responsive patterns (e.g., drawer navigation on mobile).
-
-## 11) Data model (summary)
-
-Summarise the entities, relationships and constraints that underpin the dynamic parts of the site. If the project is a marketing site with minimal data, explain any external services (e.g., CRM, form submissions) and what data flows are required.
-
-## 12) Non‑generic commitments
-
-- **Signature patterns (2–3):** Confirm the signature patterns defined in the design concept and plan for their implementation.
-- **UI kit override plan:** If using a UI library (e.g., Tailwind, shadcn), describe how you will override typography, spacing, radii, elevation, colours and motion to remove recognisable defaults.
-- **Microcopy & seeded data strategy:** Define the voice and tone guidelines, and specify how you will seed the project with realistic data and avoid “lorem ipsum” or generic placeholders.
-
-## 13) Risks + mitigations
-
-Identify potential risks across design, engineering and delivery (e.g., scope creep, performance bottlenecks, integration delays) and propose mitigation strategies.
-
-## 14) Definition of Done
-
-Completion is achieved only when all of the following are met:
-
-- [ ] **Differentiation gate passes:** Tesis de diseño clara, patrones de firma implementados, no se detectan kits por defecto.
-- [ ] **Depth gate passes:** Vertical, horizontal y transversal completados según el perfil de profundidad.
-- [ ] **Build/Lint/Typecheck/Tests pass:** Código sin errores, pruebas completas.
-- [ ] **Walkthrough + proof captured:** Documentación de recorrido y evidencia visual de estados críticos.
+- [ ] **Test anti-genérico:** La web no parece hecha con un template de IA. Tiene personalidad propia.
+- [ ] **Patrones de firma:** Al menos 2 elementos visuales únicos implementados.
+- [ ] **Contenido completo:** Todos los textos, imágenes y datos son finales (o semifinales realistas).
+- [ ] **Mobile OK:** Se ve y funciona perfectamente en móvil.
+- [ ] **QA visual:** Revisión completa con `/qa_polish` pasada sin issues críticos.
+- [ ] **Build limpio:** El proyecto compila sin errores.

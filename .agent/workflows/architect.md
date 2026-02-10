@@ -1,13 +1,17 @@
 ---
-description: Select stack + architecture and document tradeoffs.
+description: Selecciona el stack y la arquitectura del proyecto, documentando los tradeoffs.
 ---
 
-1. Classify project
-   Confirm project class and default depth profile to PRODUCTION unless explicitly overridden.
+1. Clasificar el proyecto
+   Determinar el tipo (web corporativa, landing, portfolio, tienda, blog) y el nivel de complejidad.
 
-2. Score stacks
-   Propose 2–3 stacks; score depth, differentiation, ops, cost/time.
+2. Elegir stack
+   Proponer 2-3 opciones de stack y evaluar:
+   - Velocidad de desarrollo
+   - Rendimiento final
+   - Facilidad de despliegue
+   - Diferenciación visual que permite
+   Usar la skill `stack-architect-selector` como guía.
 
-3. Decide
-   Pick a winner; write `docs/architecture_decision.md` and update the plan.
-
+3. Documentar decisión
+   Crear `docs/architecture_decision.md` con la opción elegida, las alternativas descartadas y los motivos.

@@ -4,26 +4,26 @@
 Determinar si este repositorio modelo es **adecuado** como base para proyectos de diseño y desarrollo web dentro de Google Antigravity (IDE).
 
 ## 2) Hallazgos principales
+
 **Fortalezas**
-- Incluye un **brief inicial** claro (`PROJECT_BRIEF.md`).
-- Define un **flujo de trabajo** con pasos y documentos clave (`docs/README.md`).
-- Ofrece **plantillas** para decisiones de arquitectura, QA, seguridad, regresión visual y release.
-- Promueve **consistencia** y **rigurosidad** (decision log, threat model, design QA, etc.).
+- Brief inicial extenso y guiado con ejemplos reales (`PROJECT_BRIEF.md`).
+- Checklist de material del cliente para saber qué pedir antes de diseñar (`CLIENTE_CHECKLIST.md`).
+- Flujo de trabajo completo con 11 workflows paso a paso.
+- Reglas del agente enfocadas en diseño anti-genérico y storytelling.
+- Biblioteca de patrones de diseño por sector (`docs/_templates/design_library.template.md`).
+- 35+ skills de diseño, desarrollo, SEO, copywriting y QA.
+- Templates de documentación para todos los artefactos clave.
+- Separación clara entre documentos esenciales y opcionales.
 
-**Brechas / Oportunidades**
-- Faltaba documentar explícitamente el **rol de Antigravity como IDE** y cómo condiciona el flujo de trabajo.
-- No había un **checkpoint** claro para validar el “fit” de la plantilla antes de arrancar automatizaciones.
+**Puntos de atención**
+- Los workflows opcionales (CI, seguridad, regresión visual) solo deben usarse cuando el proyecto lo justifique.
+- La biblioteca de patrones cubre 7 sectores; ampliar si se trabajan sectores no cubiertos.
+- El script `new_project.ps1` está optimizado para Windows/PowerShell.
 
-## 3) Cambios realizados
-Para resolver las brechas se incorporaron:
-- `docs/antigravity_research.md`: contexto del IDE y sus implicaciones en el workflow.
-- `docs/repo_readiness_review.md`: evaluación y checklist de adecuación.
-- Actualización del índice de documentación y del README para reflejar los nuevos pasos.
-
-## 4) Conclusión
-Este repositorio **sí es adecuado** como base para proyectos web en Antigravity, siempre que se complete la validación inicial y se mantenga el orden recomendado. Con los cambios introducidos, el flujo de trabajo cubre:
-- Descubrimiento (contexto de IDE + brief)
-- Definición (plan y decisiones)
-- Diseño (concepto + QA)
-- Ejecución (scaffold + hardening)
-- Validación (seguridad, regresión visual, release)
+## 3) Conclusión
+Este repositorio **sí es adecuado** como base para proyectos web en Antigravity. El flujo de trabajo cubre:
+- **Descubrimiento**: Brief + Checklist del cliente + Investigación de sector
+- **Definición**: Concepto de diseño + Plan de implementación + Arquitectura
+- **Ejecución**: Scaffold + Construcción guiada por patrones de firma
+- **Verificación**: QA visual + Preview + Tests
+- **Entrega**: Release checklist + Walkthrough con evidencia

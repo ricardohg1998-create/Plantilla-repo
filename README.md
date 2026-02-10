@@ -1,47 +1,92 @@
-# AG_PRO_TEMPLATE — Project Bootstrap
+# 🚀 Plantilla Pro — Webs de Cliente
 
-This folder is a **project template** for Google Antigravity that forces:
-- Non-generic UI (design thesis + signature patterns + no default kit)
-- Depth (vertical/horizontal/transversal)
-- Evidence (walkthrough + decision log + release checklist)
-- Senior hardening (CI, threat model, visual regression, runbook)
+Plantilla de arranque rápido para proyectos web de PYMEs, empresas y profesionales en Google Antigravity.
 
-## How to start a new client project
-1) Copy this folder to a new directory (rename it).
-2) Fill `PROJECT_BRIEF.md`.
-3) Complete `docs/antigravity_research.md` and `docs/repo_readiness_review.md`.
-4) Open the folder as a workspace in Antigravity.
-5) In chat, run: `/kickoff`
-6) Follow the generated `docs/implementation_plan.md`, then `/scaffold`.
+**¿Qué consigues con esta plantilla?**
+- Webs con diseño impactante que NO parecen hechas con IA
+- Flujo de trabajo guiado de principio a fin
+- Documentación automática de cada decisión
+- Patrones de diseño únicos por sector
 
-## Pasos rápidos recomendados (orden sugerido)
-1) Copia esta plantilla a un nuevo directorio y renómbralo.
-2) Completa [`PROJECT_BRIEF.md`](PROJECT_BRIEF.md).
-3) Completa [`docs/antigravity_research.md`](docs/antigravity_research.md) y [`docs/repo_readiness_review.md`](docs/repo_readiness_review.md).
-4) Ejecuta `/kickoff` para generar y completar los docs clave: [`docs/implementation_plan.md`](docs/implementation_plan.md) y [`docs/design_concept.md`](docs/design_concept.md).
-5) Verifica que ambos documentos estén completos y continúa con `/scaffold`.
+---
 
-## Recommended workflow sequence (PRODUCTION)
-- /kickoff
-- /scaffold
-- /ci_setup
-- /security_harden
-- /visual_regress
-- /qa_polish
-- /release_proof
+## Cómo empezar un proyecto nuevo
 
-## Notes
-- Keep global `~/.gemini/GEMINI.md` short; use `.agent/rules/agent_rules.md` for the heavy rules.
-- Skills should live in `.agent/skills/` at repo level and be treated as first-class context for every task.
-- Índice de documentación y orden recomendado: ver `docs/README.md`.
+### Paso 1: Copiar la plantilla
+Ejecuta en PowerShell:
+```powershell
+.\scripts\new_project.ps1 -Name "NombreDelCliente"
+```
 
-## Política de comportamiento del agente
-- El agente debe detectar y aplicar skills relevantes automáticamente sin necesidad de mención explícita del usuario.
-- Si una tarea coincide claramente con el propósito de una skill disponible, la skill se debe activar como parte del flujo normal de ejecución.
-- Si hay múltiples skills potenciales, se debe priorizar el conjunto mínimo que cubra la necesidad del usuario.
-- La detección debe revisar de forma proactiva `.agent/skills/**/SKILL.md` al inicio de cada tarea para decidir qué skills activar.
-- Si existe una skill local en `.agent/skills` que cubre la necesidad, se prioriza sobre alternativas globales.
+### Paso 2: Rellenar el Brief
+Abre [`PROJECT_BRIEF.md`](PROJECT_BRIEF.md) y complétalo con toda la información del cliente. Cuanto más completo, mejor resultado.
 
-### Ejemplos de disparadores
-- Si el usuario pide crear una skill nueva o actualizar una existente, usar `skill-creator`.
-- Si el usuario pide listar, instalar o actualizar skills, usar `skill-installer`.
+> 💡 Usa [`CLIENTE_CHECKLIST.md`](CLIENTE_CHECKLIST.md) para saber qué pedirle al cliente antes de empezar.
+
+### Paso 3: Arrancar el proyecto
+En el chat de Antigravity, escribe:
+```
+/kickoff
+```
+Esto investigará el sector, propondrá el diseño y generará el plan.
+
+### Paso 4: Construir
+Cuando el plan esté aprobado:
+```
+/scaffold
+```
+Esto creará la estructura del proyecto y la primera página funcional.
+
+### Paso 5: Revisar y pulir
+```
+/qa_polish
+```
+Revisión automática de calidad visual en desktop y móvil.
+
+### Paso 6: Previsualizar
+```
+/preview
+```
+Arranca la web y captura screenshots para enseñar al cliente.
+
+---
+
+## Secuencia completa de workflows
+
+| Orden | Comando | Qué hace |
+|-------|---------|----------|
+| 1 | `/kickoff` | Investiga, planifica, define diseño |
+| 2 | `/scaffold` | Crea la estructura y primera página |
+| 3 | `/build_verify` | Arranca la web y verifica que funciona |
+| 4 | `/qa_polish` | Revisión de calidad visual |
+| 5 | `/preview` | Capturas y previsualización |
+| 6 | `/test_all` | Comprobación técnica (build, lint) |
+| 7 | `/release_proof` | Checklist final de entrega |
+
+> Los comandos `/ci_setup`, `/security_harden` y `/visual_regress` son opcionales. Úsalos solo en proyectos grandes o con backend.
+
+---
+
+## Estructura del repo
+
+```
+📁 Plantilla-repo/
+├── PROJECT_BRIEF.md          ← Lo primero que rellenas
+├── CLIENTE_CHECKLIST.md       ← Qué pedir al cliente
+├── README.md                  ← Estás aquí
+├── .agent/
+│   ├── rules/agent_rules.md   ← Reglas de diseño anti-genérico
+│   ├── skills/                ← 35+ herramientas de diseño y desarrollo
+│   └── workflows/             ← Comandos /slash
+├── docs/
+│   ├── _templates/            ← Plantillas de documentación
+│   └── ...                    ← Docs generados durante el proyecto
+└── scripts/
+    └── new_project.ps1        ← Script para crear proyectos nuevos
+```
+
+---
+
+## Documentación
+
+Ver [`docs/README.md`](docs/README.md) para el índice completo y el orden en que se van rellenando los documentos.
