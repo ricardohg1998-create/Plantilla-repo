@@ -1,36 +1,23 @@
-# Project Brief (Fill this first)
+# BRIEFING DEL PROYECTO (Rellena esto para empezar)
 
-## 1) Client + domain
-- Client:
-- Industry:
-- Geography / language:
-- Competitors / references:
+## 1. El Cliente
+* **Nombre del Negocio:**
+* **¿Qué hacen? (En una frase sencilla):**
+* **¿Quién es su cliente ideal?** (Ej: jóvenes modernos, abogados serios, señoras mayores):
 
-## 2) What are we building?
-- Project class: Marketing site / Product app / SaaS-CRM
-- Core job-to-be-done (JTBD):
-- Primary success metric:
-- Deadline / constraints:
+## 2. El Objetivo
+* **¿Para qué sirve la web?** (Ej: conseguir llamadas, vender productos online, mostrar portafolio, dar imagen de prestigio):
+* **¿Cuál es la acción principal que queremos que haga el visitante?:**
 
-## 3) Users + roles
-- User types:
-- Roles/permissions (if app):
-- Key workflows (top 3):
+## 3. El Diseño y el "Vibe"
+* **Adjetivos que definen la marca:** (Ej: Minimalista, Brutalista, Elegante, Divertido, Tecnológico, Cálido):
+* **Colores preferidos (o colores a evitar):**
+* **Webs de referencia (Pega links de webs que te gusten visualmente):**
 
-## 4) Differentiation intent
-- Visual metaphor:
-- Brand cues (colors, typography, vibe):
-- “Signature patterns” ideas (2–3):
+## 4. Contenido Clave
+* **Secciones necesarias:** (Ej: Inicio, Sobre Nosotros, Servicios, Contacto, Blog):
+* **Información crítica que no puede faltar:** (Ej: Teléfono bien grande, Horario, Precio desde...):
 
-## 5) Data + integrations
-- Entities:
-- Data sources:
-- Integrations/webhooks:
-
-## 6) Non-negotiables
-- Must-have:
-- Must-not:
-- Compliance/security constraints:
-
-## 7) Delivery proof
-- What counts as “DONE” for this client:
+## 5. Instrucciones Especiales para la IA
+* **Nivel de creatividad:** (Elige uno: Conservador / Moderno / Experimental / ¡Sorpréndeme!):
+* **Cualquier otra cosa:**
