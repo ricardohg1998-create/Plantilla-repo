@@ -1,10 +1,7 @@
 ---
 name: clean-code
 description: Use when the request requires pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
+allowed-tools: Read, Write, Edit
 version: 2.0
 priority: CRITICAL
 ---
@@ -216,3 +213,4 @@ File to edit: UserService.ts
 > 🔴 **VIOLATION:** Running script and ignoring output = FAILED task.
 > 🔴 **VIOLATION:** Auto-fixing without asking = Not allowed.
 > 🔴 **Rule:** Always READ output → SUMMARIZE → ASK → then fix.
+

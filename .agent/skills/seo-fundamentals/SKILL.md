@@ -4,10 +4,7 @@ description: Use when the request requires >.
   Core principles of SEO including E-E-A-T, Core Web Vitals, technical foundations,
   content quality, and how modern search engines evaluate pages. This skill explains
   *why* SEO works, not how to execute specific optimizations.
-allowed-tools:
-  - Read
-  - Glob
-  - Grep
+allowed-tools: Read, Glob, Grep
 ---
 
 ---
