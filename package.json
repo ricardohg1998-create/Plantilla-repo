@@ -1,0 +1,26 @@
+{
+  "name": "plantilla-repo-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "starters/*",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "check:content": "node scripts/check-content.mjs",
+    "stack:select": "node scripts/select-stack.mjs",
+    "dev:next": "npm run dev --workspace=starters/next",
+    "dev:vite": "npm run dev --workspace=starters/vite",
+    "build:next": "npm run build --workspace=starters/next",
+    "build:vite": "npm run build --workspace=starters/vite",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "happy-dom": "^20.6.1",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  }
+}

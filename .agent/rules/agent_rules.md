@@ -31,11 +31,63 @@ El usuario NO sabe qué skills tienes. TÚ eres el responsable de usarlas.
 
 - **Escaneo Proactivo:** Al empezar cualquier tarea, revisa `.agent/skills/`. Si tienes herramientas relevantes, **ÚSALAS** sin pedir permiso.
 - **Regla de oro:** Si una skill mejora el resultado visual o técnico, aplícala por defecto.
-- **Criterios de activación automática:**
-  - Si el brief pide "impacto", "moderno", "premium" o "experimental" → Activa `scroll-experience`, `ui-ux-pro-max` y `signature-patterns-lab`.
-  - Si hay textos genéricos o placeholders → Activa `copy-seed-forge` y `copywriting`.
-  - Si hay formularios o interacciones → Activa `ux-state-completer`.
-  - Antes de entregar → Activa `design-qa-polish-pass` y `frontend-design`.
+- **NUNCA preguntes** "¿Quieres que use la skill X?". Simplemente úsala.
+
+### Criterios de activación automática:
+
+**🎨 Diseño y Experiencia Visual**
+- SIEMPRE en todo proyecto → `frontend-design`, `ui-ux-pro-max`, `signature-patterns-lab`
+- Si el brief pide "impacto", "moderno", "premium" o "experimental" → `scroll-experience`, `3d-web-experience`
+- Si es un portfolio o web de creativo → `interactive-portfolio`
+- Al definir paleta y tipografía → Consulta `design_library.template.md` + `ui-ux-pro-max`
+- Jerarquía de diseño (RESPETAR ORDEN):
+  1. `ui-ux-pro-max` → Consultar primero para recomendaciones de base de datos (paleta, tipografía, estilo)
+  2. `frontend-design` → Aplicar la dirección estética concreta sobre esas recomendaciones
+  3. `design-system-forge` → Implementar tokens y componentes base del sistema resultante
+  4. `signature-patterns-lab` → Crear patrones de firma para identidad única
+  5. `design-qa-polish-pass` → Revisión final de calidad visual (post-implementación)
+
+**✍️ Contenido y Copy**
+- Si hay textos genéricos o placeholders → `copy-seed-forge`, `copywriting`
+- Si necesitas escribir contenido SEO (blog, landing) → `seo-content-writer`
+- Si necesitas estrategia de contenido global → `content-marketer`
+- Si el proyecto es multiidioma → `i18n-localization`
+- Jerarquía de contenido (NO MEZCLAR roles):
+  - `copywriting` → Copy de páginas del sitio (headlines, CTAs, secciones)
+  - `seo-content-writer` → Artículos de blog y contenido editorial SEO
+  - `content-marketer` → Estrategia global: qué publicar, dónde, cuándo
+  - `copy-seed-forge` → Microcopy de UI y datos demo realistas
+
+**📊 SEO (SIEMPRE activar en webs públicas)**
+- Al crear cualquier página → `seo-meta-optimizer` (títulos, metas, URLs)
+- Al estructurar la información → `seo-structure-architect` (headings, silos, linking interno)
+- Al implementar datos estructurados → `schema-markup` (JSON-LD para Google) — ÚNICO responsable de schema
+- Al revisar SEO general → `seo-fundamentals` (principios teóricos)
+- Jerarquía SEO (evitar duplicación):
+  - `seo-meta-optimizer` → ÚNICO responsable de title tags, meta descriptions, URLs
+  - `seo-structure-architect` → SOLO headings y linking interno, NO metadata ni schema
+  - `schema-markup` → ÚNICO responsable de JSON-LD y datos estructurados
+  - `seo-analytics-instrumentation` → SOLO analytics y tracking, NO metadata (eso es de `seo-meta-optimizer`)
+  - `seo-fundamentals` → Referencia teórica, no produce código directamente
+
+**📈 Conversión y Formularios**
+- Si hay formularios de contacto/presupuesto → `form-cro`, `ux-state-completer`
+- Al revisar la eficacia de la página → `page-cro`
+- Si hay analítica configurada → `analytics-tracking`
+
+**🚀 Despliegue y Técnico**
+- Al desplegar en Vercel → `vercel-deployment`
+- Si hay sistema de pagos → `payment-integration`
+- Al capturar screenshots para el cliente → `screenshots`
+- Para Next.js App Router → `nextjs-app-router-patterns` (patrones avanzados)
+- Para optimización de rendimiento React/Next.js → `react-best-practices` (Vercel, 45 reglas)
+- Para patrones de UI React (estados, errores, loading) → `react-ui-patterns`
+
+**✅ QA y Entrega (SIEMPRE antes de entregar)**
+- Antes de entregar → `design-qa-polish-pass`, `frontend-design`
+- Revisión de accesibilidad → `wcag-audit-patterns`
+- Revisión de rendimiento → `web-performance-optimization`, `perf-budget-enforcer`
+- Auditoría visual web → `web-design-guidelines`
 
 ---
 

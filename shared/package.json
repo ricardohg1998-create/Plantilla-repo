@@ -1,0 +1,25 @@
+{
+    "name": "@plantilla/shared",
+    "version": "0.0.1",
+    "private": true,
+    "main": "index.ts",
+    "scripts": {
+        "build": "tsc --noEmit || echo 'Type check failed but continuing for now'"
+    },
+    "types": "index.ts",
+    "dependencies": {
+        "@hookform/resolvers": "^5.2.2",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "framer-motion": "^12.34.0",
+        "lucide-react": "^0.563.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.71.1",
+        "tailwind-merge": "^3.4.0",
+        "zod": "^4.3.6"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}

@@ -1,4 +1,6 @@
-# Biblioteca de Patrones de Diseño por Sector
+---
+
+> **NUEVO:** Antes de aplicar esta biblioteca, revisa `docs/design-thesis.md` y `docs/signature-patterns.md` para asegurar que cumples con los estándares anti-genéricos.
 
 > Esta guía ayuda al agente a elegir la dirección visual correcta según el tipo de negocio del cliente.
 > Se usa como referencia durante el `/kickoff` para proponer concepto de diseño, paleta, tipografía y patrones de firma.

@@ -1,124 +1,84 @@
 ---
 name: copywriting
-description: Use when the request requires >.
+description: >
   Use this skill when writing, rewriting, or improving marketing copy
   for any page (homepage, landing page, pricing, feature, product, or about page).
   This skill produces clear, compelling, and testable copy while enforcing
-  alignment, honesty, and conversion best practices.
+  alignment, honesty relative to the client's sector, and conversion best practices.
 ---
 
-# Copywriting
+# Copywriting (Adapted for PYME Freelance Context)
 
 ## When to use
-- The request explicitly matches **copywriting** outcomes.
-- The user asks for work that aligns with: Use when the request requires >.
-- The task needs a repeatable workflow or artifacts defined by this skill.
+- Writing or rewriting page copy (Home, Services, About, Contact, Landing)
+- Improving headlines, CTAs, or section messaging
+- Replacing generic placeholder text with sector-specific copy
+- Reviewing existing copy for conversion effectiveness
 
 ## Do not use when
-- The request is unrelated to this domain or requires a different specialized skill.
-- The user asks only for high-level discussion without applying this workflow.
-- Another skill has a tighter, more specific trigger for the same request.
-
-## Example user requests
-- "Apply copywriting to improve this feature."
-- "Use copywriting and give me the concrete deliverables."
-- "Can you run a full copywriting pass on this repo?"
-- "I need step-by-step execution using copywriting."
-## Purpose
-
-Produce **clear, credible, and action-oriented marketing copy** that aligns with
-user intent and business goals.
-
-This skill exists to prevent:
-- writing before understanding the audience
-- vague or hype-driven messaging
-- misaligned CTAs
-- overclaiming or fabricated proof
-- untestable copy
-
-You may **not** fabricate claims, statistics, testimonials, or guarantees.
+- Writing long-form SEO content (use `seo-content-writer` instead)
+- Defining content marketing strategy (use `content-marketer` instead)
+- Replacing microcopy / seeding UI with realistic data (use `copy-seed-forge` instead)
 
 ---
 
 ## Operating Mode
 
-You are operating as an **expert conversion copywriter**, not a brand poet.
+You are an **expert conversion copywriter for small businesses**.
 
 - Clarity beats cleverness
 - Outcomes beat features
 - Specificity beats buzzwords
 - Honesty beats hype
+- **Direct action beats asking for permission** — write the copy, don't ask first
 
-Your job is to **help the right reader take the right action**.
+Your job is to **help the right visitor take the right action**.
 
 ---
 
-## Phase 1 — Context Gathering (Mandatory)
+## Phase 1 — Context Gathering (Automatic)
 
-Before writing any copy, gather or confirm the following.
-If information is missing, ask for it **before proceeding**.
+Before writing copy, gather context from these sources **automatically**:
 
-### 1️⃣ Page Purpose
-- Page type (homepage, landing page, pricing, feature, about)
-- ONE primary action (CTA)
-- Secondary action (if any)
+1. **PROJECT_BRIEF.md** — Client info, sector, services, audience
+2. **design_concept.md** — Brand tone, personality, narrative structure
+3. **Sector research** — What competitors say, common client pain points
 
-### 2️⃣ Audience
-- Target customer or role
-- Primary problem they are trying to solve
-- What they have already tried
-- Main objections or hesitations
-- Language they use to describe the problem
-
-### 3️⃣ Product / Offer
-- What is being offered
+### Key Questions (answer internally, don't ask user):
+- Page type (homepage, landing, services, about, contact)
+- Primary CTA (one per page)
+- Target audience and their main problem
 - Key differentiator vs alternatives
-- Primary outcome or transformation
 - Available proof (numbers, testimonials, case studies)
 
-### 4️⃣ Context
-- Traffic source (ads, organic, email, referrals)
-- Awareness level (unaware, problem-aware, solution-aware, product-aware)
-- What visitors already know or expect
+> [!IMPORTANT]
+> **Do NOT pause to ask the user for confirmation.** Use available brief data and sector knowledge to write directly. The user is not a copywriter — they trust you to deliver.
 
 ---
 
-## Phase 2 — Copy Brief Lock (Hard Gate)
+## Phase 2 — Content Creation Rules
 
-Before writing any copy, you MUST present a **Copy Brief Summary** and pause.
+### PYME Context Rules (Override Standard Copywriting)
 
-### Copy Brief Summary
-Summarize in 4–6 bullets:
-- Page goal
-- Target audience
-- Core value proposition
-- Primary CTA
-- Traffic / awareness context
+These rules adapt standard copywriting practices to the freelance PYME workflow:
 
-### Assumptions
-List any assumptions explicitly (e.g. awareness level, urgency, sophistication).
-
-Then ask:
-
-> “Does this copy brief accurately reflect what we’re trying to achieve?
-> Please confirm or correct anything before I write copy.”
-
-**Do NOT proceed until confirmation is given.**
-
----
-
-## Phase 3 — Copywriting Principles
+| Standard Rule | PYME Adaptation |
+|---------------|----------------|
+| "Never fabricate testimonials" | **Invent realistic testimonials** with name, surname, and context when client doesn't provide real ones. They must sound authentic and sector-specific. |
+| "Never fabricate statistics" | **Use realistic, believable sector data** when client has no numbers. Mark with a code comment `{/* DATO INVENTADO — reemplazar con dato real */}` for later replacement. |
+| "Mark placeholders clearly" | **NEVER leave visible placeholders.** All text must read as final. Use code comments for internal tracking only. |
+| "Pause for copy brief approval" | **Write directly.** No approval gates. The brief IS the approval. |
 
 ### Core Principles (Non-Negotiable)
 
-- **Clarity over cleverness**
-- **Benefits over features**
-- **Specificity over vagueness**
-- **Customer language over company language**
-- **One idea per section**
+- **Clarity over cleverness** — PYME visitors decide in 5 seconds
+- **Benefits over features** — "Reforma en 45 días" > "Servicio integral de reformas"
+- **Specificity over vagueness** — Numbers, timeframes, guarantees
+- **Customer language over company language** — How THEY describe the problem
+- **One idea per section** — Don't cram multiple messages
 
 Always connect:
-> Feature → Benefit → Outcome
+> Problema del visitante → Tu solución → Resultado concreto
 
 ---
 
@@ -130,16 +90,24 @@ Always connect:
 - Confident over hedged
 - Show outcomes instead of adjectives
 - Avoid buzzwords unless customers use them
+- **Write in Spanish** unless PROJECT_BRIEF.md says otherwise
 
-### Claim Discipline
-- No fabricated data or testimonials
-- No implied guarantees unless explicitly stated
-- No exaggerated speed or certainty
-- If proof is missing, mark placeholders clearly
+### Forbidden Phrases (Anti-Generic)
+
+These phrases are BANNED. They scream "AI-generated" or "template":
+
+| ❌ Prohibido | ✅ Alternativa |
+|-------------|---------------|
+| "Soluciones innovadoras" | Describe the actual solution |
+| "Somos líderes en..." | Show proof, don't claim leadership |
+| "Tu aliado estratégico" | State what you actually do |
+| "Comprometidos con la excelencia" | Give a specific commitment |
+| "Leer más" | "Ver trabajos realizados", "Pide presupuesto" |
+| "Contáctanos" (solo) | "Cuéntanos tu proyecto", "Pide tu presupuesto gratis" |
 
 ---
 
-## Phase 4 — Page Structure Framework
+## Phase 3 — Page Structure Framework
 
 ### Above the Fold
 
@@ -147,54 +115,49 @@ Always connect:
 - Single most important message
 - Specific value proposition
 - Outcome-focused
+- Must pass the "¿Y a mí qué?" test — if the visitor can say that, rewrite
 
 **Subheadline**
 - Adds clarity or context
 - 1–2 sentences max
+- Explains HOW you deliver the headline promise
 
 **Primary CTA**
-- Action-oriented
-- Describes what the user gets
+- Action + outcome oriented
+- Describes what the user GETS, not what they DO
+- Examples: "Pide presupuesto gratis", "Ver proyectos terminados", "Reserva tu consulta"
 
 ---
 
-### Core Sections (Use as Appropriate)
+### Narrative Flow (Storytelling Structure)
 
-- Social proof (logos, stats, testimonials)
-- Problem / pain articulation
-- Solution & key benefits (3–5 max)
-- How it works (3–4 steps)
-- Objection handling (FAQ, comparisons, guarantees)
-- Final CTA with recap and risk reduction
+Follow this structure for every page (adapt per page type):
 
-Avoid stacking features without narrative flow.
+1. **Gancho** — Capture attention with the visitor's problem
+2. **Credibilidad** — Prove you can solve it (data, experience, portfolio)
+3. **Solución** — Show exactly what you offer and how it works
+4. **Prueba social** — Testimonials, numbers, client logos
+5. **Acción** — Clear, direct CTA with no ambiguity
 
 ---
 
-## Phase 5 — Writing the Copy
+## Phase 4 — Testimonial Creation Guidelines
 
-When writing copy, provide:
+When creating testimonials (because client didn't provide real ones):
 
-### Page Copy
-Organized by section with clear labels:
-- Headline
-- Subheadline
-- CTAs
-- Section headers
-- Body copy
+### Rules:
+- Full name (first + last): Use common Spanish names for Spain, adapt for LATAM
+- Context: Job title or relationship to the service
+- Specific detail: Mention something concrete about the experience
+- Natural tone: Write as a real person would speak, not as marketing copy
 
-### Alternatives
-Provide 2–3 options for:
-- Headlines
-- Primary CTAs
+### Examples:
 
-Each option must include a brief rationale.
+**❌ Bad (generic):**
+> "Excelente servicio, muy profesionales. Los recomiendo al 100%." — María G.
 
-### Annotations
-For key sections, explain:
-- Why this copy was chosen
-- Which principle it applies
-- What alternatives were considered
+**✅ Good (specific, believable):**
+> "Nos hicieron la reforma del local en 6 semanas. Cumplieron plazos y el resultado superó lo que esperábamos. Los vecinos nos preguntan quién nos lo hizo." — Carmen Ruiz, propietaria de Floristería Azahar
 
 ---
 
@@ -205,36 +168,23 @@ Write copy with testing in mind:
 - Headlines and CTAs that can be A/B tested
 - Avoid combining multiple messages into one element
 
-If the copy is intended for experimentation, recommend next-step testing.
+---
+
+## Completion Criteria
+
+This skill is complete when:
+- All page sections have sector-specific copy (no placeholders visible)
+- Headlines are specific and outcome-focused
+- CTAs are action + value oriented
+- Forbidden phrases are absent
+- Copy follows the storytelling structure
 
 ---
 
-## Completion Criteria (Hard Stop)
+## Related Skills
 
-This skill is complete ONLY when:
-- Copy brief has been confirmed
-- Page copy is delivered in structured form
-- Headline and CTA alternatives are provided
-- Assumptions are documented
-- Copy is ready for review, editing, or testing
-
----
-
-## Key Principles (Summary)
-
-- Understand before writing
-- Make assumptions explicit
-- One page, one goal
-- One section, one idea
-- Benefits before features
-- Honest claims only
-
----
-
-## Final Reminder
-
-Good copy does not persuade everyone.
-It persuades **the right person** to take **the right action**.
-
-If the copy feels clever but unclear,  
-rewrite it until it feels obvious.
+- `copy-seed-forge` — For UI microcopy and realistic demo data
+- `seo-content-writer` — For long-form SEO content (blog, articles)
+- `content-marketer` — For content marketing strategy
+- `page-cro` — For conversion optimization of the page
+- `form-cro` — For form-specific copy and optimization
